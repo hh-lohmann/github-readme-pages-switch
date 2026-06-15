@@ -18,24 +18,13 @@ Markdown rendering is restricted in GitHub repo view and accordingly on npmjs.co
 
 ## Synopsis
 
-For GitHub (serving both for repo view and GitHub Pages, therefore real switch):
-
 ```html
 <!-- see https://hh-lohmann.github.io/github-readme-pages-switch -->
 <p align="center" id="github_readme_pages_switch" style="display:none;">
   <b><i>This page may be displayed more optimal in its
-  <a href="https://OWNER.github.io/REPO/">GitHub Pages view</a>
+  <a href="https://OWNER.github.io/REPO">GitHub Pages view</a>
   </i></b>
 </p>
-```
-
-For npm publish version (npmjs.com / npmx.dev = always repo view only = no switch)
-
-```html
-<!-- see https://hh-lohmann.github.io/github-readme-pages-switch -->
-<b><i>This page may be displayed more optimal in its
-<a href="https://OWNER.github.io/REPO/">GitHub Pages view</a>
-</i></b>
 ```
 
 
@@ -51,7 +40,6 @@ For npm publish version (npmjs.com / npmx.dev = always repo view only = no switc
 ```
 
 
-
 ## Demo
 
 Cf. actual usage here [at top](https://hh-lohmann.github.io/github-readme-pages-switch/README.md)
@@ -59,7 +47,7 @@ Cf. actual usage here [at top](https://hh-lohmann.github.io/github-readme-pages-
 
 ## Installation
 
-Copy appropriate example from [Synopsis](#synopsis) to the beginning of target README and replace OWNER with the owner of the repo and REPO with the name of the repo (cf. [Examples](#examples)).
+Copy pattern from [Synopsis](#synopsis) to the beginning of target README and replace OWNER with the owner of the repo and REPO with the name of the repo (cf. [Examples](#examples)).
 
 Best used in templates for repos.
 
