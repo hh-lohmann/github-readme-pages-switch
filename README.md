@@ -70,5 +70,5 @@ Best used in templates for repos.
   * <https://github.github.com/gfm/#raw-html>
 
 ### GitHub Flavored Markdown: Disallowed Raw HTML (extension)
-  * contradicts [Raw HTML](#github-flavored-markdown-raw-html) and [HTML blocks](#github-flavored-markdown-raw-html)
+  * contradicts [Raw HTML](#github-flavored-markdown-raw-html) and [HTML blocks](#github-flavored-markdown-html-blocks)
   * <https://github.github.com/gfm/#disallowed-raw-html-extension->
