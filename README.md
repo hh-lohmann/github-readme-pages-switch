@@ -55,4 +55,20 @@ Best used in templates for repos.
 ## Details
 
   * While GitHub Pages support full HTML including scripting, GitHub repo view renders only basic text formatting by additional HTML in README.md. Since this applies also to "style" attributes, the HTML paragraph containing the link to GitHub Pages is not displayed on GitHub Pages due to `display:none`, but displayed as with no "style" attribute in GitHub repo view.
+    * GitHub Pages adheres to [HTML blocks](#github-flavored-markdown-raw-html) / [Raw HTML](#github-flavored-markdown-raw-html) sections while GitHub repo view is ruled by the [Disallowed Raw HTML](#github-flavored-markdown-disallowed-raw-html-extension) extension
+    * Note that 3rd party Markdown interpreters that try to be on par with GitHub often struggle with this distinction
 
+
+## References
+
+### GitHub Flavored Markdown: HTML blocks
+  * contradicted by [Disallowed Raw HTML](#github-flavored-markdown-disallowed-raw-html-extension)
+  * <https://github.github.com/gfm/#html-blocks>
+
+### GitHub Flavored Markdown: Raw HTML
+  * contradicted by [Disallowed Raw HTML](#github-flavored-markdown-disallowed-raw-html-extension)
+  * <https://github.github.com/gfm/#raw-html>
+
+### GitHub Flavored Markdown: Disallowed Raw HTML (extension)
+  * contradicts [Raw HTML](#github-flavored-markdown-raw-html) and [HTML blocks](#github-flavored-markdown-raw-html)
+  * <https://github.github.com/gfm/#disallowed-raw-html-extension->
