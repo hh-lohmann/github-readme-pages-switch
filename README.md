@@ -4,7 +4,7 @@
 
 Markdown snippet that links to GitHub Pages view for improved UI
 
-Markdown rendering is restricted in GitHub repo view and accordingly on npmjs.com / npmx.dev. the code snippet here gives a short information and a link to the GitHub Pages view richer UI. 
+Markdown rendering is restricted (with reason) in GitHub repo view and accordingly on npmjs.com / npmx.dev, the code snippet here gives a short information and a link to a version on GitHub Pages with unrestricted rendering.
 
 *[hh lohmann &lt;hh.lohmann@gmail.com&gt;](mailto:hh.lohmann@gmail.com?subject=github-readme-pages-switch)*
 
